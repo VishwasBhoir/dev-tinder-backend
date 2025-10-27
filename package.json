@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This is Backend for VishAll.in",
   "main": "server",
+  "type": "module",
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js"
@@ -15,8 +16,11 @@
   "author": "Vishwas Bhoir",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "dotenv": "^17.2.3",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mongoose": "^8.19.2",
+    "validator": "^13.15.20"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
